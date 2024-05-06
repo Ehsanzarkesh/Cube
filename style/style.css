@@ -1,0 +1,56 @@
+@font-face {
+    font-family: cyberpunk;
+    src: url('../font/font.woff2');
+}
+
+* {
+    font-family: cyberpunk;
+}
+
+body {
+    background-color: rgb(162, 158, 158);
+    margin: 0%;
+}
+
+.header {
+    text-align: center;
+    padding: 35px 0;
+    background-color: rgb(234, 243, 243);
+    margin: 0%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.list ul {
+    margin: 0%;
+    padding: 0%;
+    font-size: xx-large;
+
+}
+
+.list ul li {
+    display: inline-block;
+    list-style: none;
+    background-color: rgb(65, 147, 201);
+    padding: 6px;
+    min-width: 77px;
+}
+ul li.signup{
+    position: fixed;
+    margin: 0px;
+    right: 0px;
+}
+.telegram{
+    position: fixed;
+    bottom: 0px;
+}
+/*.whatsapp{
+    position: fixed;
+    right: 0px;
+    bottom: opx;
+}
+*/
+
